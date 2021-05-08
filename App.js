@@ -1,5 +1,6 @@
 import React from 'react';
 import {Text} from 'react-native';
+import codePush from 'react-native-code-push';
 
 import 'react-native-gesture-handler';
 import {NavigationContainer} from '@react-navigation/native';
@@ -60,4 +61,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default codePush(App);
