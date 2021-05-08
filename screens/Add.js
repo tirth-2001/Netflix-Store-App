@@ -44,7 +44,7 @@ const Add = ({navigation}) => {
   return (
     <Container style={styles.container}>
       <ScrollView contentContainerStyle={{flexGrow: 1}}>
-        <H1 style={styles.heading}>Add To Watch List</H1>
+        <H1 style={styles.heading}>Add to watch list</H1>
         <Form>
           <Item rounded style={styles.formItem}>
             <Input
